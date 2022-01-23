@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> 6 ЛАБА_ПОЙДЕНКО_КАРТЫ </title>
+<link rel="stylesheet" type="text/css" href="css_6laba.css">
+
+
+</head>
+
+<body>
+
+    <br>
+    <div id="wrapper">
+    <form id="search_route"  >
+        <p> Введите начальный пункт назначения: </p>
+        <input id="start" type="text" value="Донецк, ул. Куйбышева 31" placeholder="начальный пункт"><br />
+        <p> Введите конечный пункт назначения:   </p>
+        <input id="end" type="text" value="Донецк, ул. Артема 88" placeholder="конечный пункт">
+        <input  id="find" type="submit" value="Построить маршрут"/>
+        </form>
+        <button  id="delete"> Очистить маршрут </button>
+        <button  id="diagrama" > Построить диаграмму </button>
+        <br />
+    </div>
+
+    <div id="map" ></div>
+    <div id="resmarshrut"></div>
+    <br>
+    <div id="chart"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://www.google.com/jsapi"></script>
+    <script src="https://api-maps.yandex.ru/2.0/?load=package.full&apikey=92aea690-ed27-45e3-bce4-d4ccc8090400&lang=ru-RU"
+     type="text/javascript"></script> 
+    <script type="text/javascript" src="js_6laba.js"> </script>
+
+</body>
+</html>

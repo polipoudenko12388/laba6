@@ -1,0 +1,34 @@
+html, body { margin: 0; padding:0;   width: 100%; height: 100%; }
+
+#map {   border: 5px solid  #483D8B; height: 70%; width: auto; }
+
+#wrapper{ border: 5px solid  #3a283e; width: 370px;  margin-bottom: 10px;
+    margin-left: 10px;  padding-left: 15px;
+    background-color:#7d5d86 ;  border-radius: 20px;
+}
+
+
+p{ font-family: 'Open Sans', 'sans-serif', 'FontAwesome'; font-size: 18px; 
+    color:rgb(179, 174, 179); }
+
+#search_route
+{
+    height: 90px; width: 300px;
+	border-radius: 8px; position: relative;
+}
+
+#search_route #start, #end { padding: 10px;  border-radius: 8px; }
+
+#search_route #find { margin-left: 10px; margin-top: 10px; }
+
+#delete, #find, #diagrama
+{
+    padding: 6px;  border-radius: 8px;
+    background-color: #3a283e; color:rgb(179, 174, 179);
+}
+
+#delete { margin-top: 94px; margin-left: 200px; }
+
+#diagrama {   margin-top: 10px; margin-left: 10px; }
+
+#chart {  width: auto;  height: 700px; border: 2px solid  saddlebrown; }
